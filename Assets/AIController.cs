@@ -11,7 +11,8 @@ public class AIController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        destination = GameObject.FindGameObjectWithTag("Destination");
+        destination = GameObject.FindGameObjectWithTag("Creation Core");
+
 
         agent = GetComponent<NavMeshAgent>();
 
